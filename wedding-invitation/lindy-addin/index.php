@@ -253,10 +253,20 @@ jQuery(function($){
 				<div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_center et_pb_bg_layout_light">
 				
 				
-				<div class="et_pb_text_inner"><h2>Undangan Pernikahan</h2>
-<p>&nbsp;</p>
-<h1>Lindy &amp; Addin</h1>
-<p>&nbsp;</p></div>
+				<div class="et_pb_text_inner" style="margin-bottom:190px"><h2>Kepada Yth</h2>
+<p>Bapak/Ibu/Saudara/i&nbsp;</p>
+<p id="namaUndangan" style="color:gold;"></p>
+<script>
+        const queryString = window.location.search;
+        console.log(queryString);
+        const urlParams = new URLSearchParams(queryString);
+        
+        var nama = urlParams.get('nama');
+        var test = 7;
+        console.log(nama);
+        document.getElementById("namaUndangan").innerHTML = nama;
+</script>
+<p>di tempat</p></div>
 			</div> <!-- .et_pb_text --><div class="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_button_alignment_center et_pb_module ">
 				<a class="et_pb_button et_pb_custom_button_icon et_pb_button_0 et_animated et_pb_bg_layout_light" href="#" data-icon="&#xe089;" id="btn_open">Buka Undangan</a>
 			</div><div class="et_pb_module et_pb_code et_pb_code_0 nothanks et_clickable  et_pb_text_align_center">
@@ -317,8 +327,8 @@ jQuery(function($){
 						<h4 class="et_pb_module_header"><span>Lindy & Addin</span></h4>
 						<div class="et_pb_blurb_description"><p style="text-align: center;">14 FEBRUARI 2022</p></div>
 
-						<!-- <a class="et_pb_button et_pb_button_1 et_animated et_pb_bg_layout_light" href="https://calendar.google.com/calendar/ical/ou5s8e3mefq8327m7opbukn33o%40group.calendar.google.com/public/basic.ics" target="_blank" style="background-color: #c08fc0;width: 50%;margin-left: auto;margin-right: auto;margin-top: 20px; text-align: center;">Save Date</a> -->
-						<!-- <a class="et_pb_button et_pb_button_1 et_animated et_pb_bg_layout_light" href="https://calendar.google.com/calendar/u/0?cid=b3U1czhlM21lZnE4MzI3bTdvcGJ1a24zM29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank" style="background-color: #c08fc0;width: 50%;margin-left: auto;margin-right: auto;margin-top: 20px; text-align: center;">Save Date</a> -->
+						<!-- <a class="et_pb_button et_pb_button_1 et_animated et_pb_bg_layout_light" href="https://calendar.google.com/calendar/ical/ou5s8e3mefq8327m7opbukn33o%40group.calendar.google.com/public/basic.ics" target="_blank" style="background-color: #747787;width: 50%;margin-left: auto;margin-right: auto;margin-top: 20px; text-align: center;">Save Date</a> -->
+						<!-- <a class="et_pb_button et_pb_button_1 et_animated et_pb_bg_layout_light" href="https://calendar.google.com/calendar/u/0?cid=b3U1czhlM21lZnE4MzI3bTdvcGJ1a24zM29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank" style="background-color: #747787;width: 50%;margin-left: auto;margin-right: auto;margin-top: 20px; text-align: center;">Save Date</a> -->
 						<!-- <div title="Add to Calendar" class="addeventatc" data-styling="none">
 						    Add to Calendar
 						    <span class="arrow">&nbsp;</span>
@@ -342,7 +352,7 @@ jQuery(function($){
 			</div> <!-- .et_pb_row -->
 				
 				<div class="et_pb_bottom_inside_divider et-no-transition"></div>
-			</div> <!-- .et_pb_section --><div class="et_pb_section et_pb_section_2 et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider" >
+			</div> <!-- .et_pb_section --><div class="et_pb_section et_pb_section_2 et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider" style="background-color: #747787!important;">
 				
 				
 				
@@ -439,7 +449,7 @@ jQuery(function($){
 			</div> <!-- .et_pb_column -->
 				
 				
-			</div> <!-- .et_pb_row --><div class="et_pb_with_border et_pb_row et_pb_row_5" style="border-color: #c08fc0!important;">
+			</div> <!-- .et_pb_row --><div class="et_pb_with_border et_pb_row et_pb_row_5" style="border-color: #747787!important;">
 				 <!-- .et_pb_column -->
 				 <div class="et_pb_column et_pb_column_1_2 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough">
 				
@@ -482,7 +492,7 @@ jQuery(function($){
 				
 				
 				<div class="et_pb_button_module_wrapper et_pb_button_1_wrapper et_pb_button_alignment_center et_pb_module ">
-				<a class="et_pb_button et_pb_button_1 et_animated et_pb_bg_layout_light" href="https://goo.gl/maps/PEqja2MzSeQB9JWj7" target="_blank" style="background-color: #c08fc0!important;box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 20%);">Google Maps</a>
+				<a class="et_pb_button et_pb_button_1 et_animated et_pb_bg_layout_light" href="https://goo.gl/maps/PEqja2MzSeQB9JWj7" target="_blank" style="background-color: #747787!important;box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 20%);">Google Maps</a>
 			</div>
 			</div> <!-- .et_pb_column -->
 				
@@ -590,7 +600,7 @@ jQuery(function($){
 				
 				
 				
-					<div class="et_pb_with_border et_pb_row et_pb_row_5" style="border-color: #c08fc0!important;">
+					<div class="et_pb_with_border et_pb_row et_pb_row_5" style="border-color: #747787!important;">
 				<div class="et_pb_column et_pb_column_1_2 et_pb_column_7  et_pb_css_mix_blend_mode_passthrough" style="width: 100%;">
 				
 				
@@ -612,7 +622,7 @@ jQuery(function($){
 						<h4 class="et_pb_module_header"><span>Gift</span></h4>
 						<div class="et_pb_blurb_description">
 							<img src="gift-icon.png" class="et_pb_animation_top">
-							<a class="et_pb_button et_pb_button_1 et_animated et_pb_bg_layout_light" id="myBtn" style="background-color: #c08fc0!important;box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 20%);">Send Gift</a>
+							<a class="et_pb_button et_pb_button_1 et_animated et_pb_bg_layout_light" id="myBtn" style="background-color: #747787!important;box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 20%);">Send Gift</a>
 						</div>
 					</div>
 				</div> <!-- .et_pb_blurb_content -->
@@ -632,7 +642,7 @@ jQuery(function($){
 				
 				
 			</div>
-			<div class="et_pb_section et_pb_section_5 et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider et_pb_top_divider" style="background-color: #c08fc0!important;">
+			<div class="et_pb_section et_pb_section_5 et_pb_with_background et_section_regular section_has_divider et_pb_bottom_divider et_pb_top_divider" style="background-color: #747787!important;">
 				
 				
 				
@@ -644,7 +654,42 @@ jQuery(function($){
 				<div class="et_pb_module et_pb_blurb et_pb_blurb_3  et_pb_text_align_center  et_pb_blurb_position_top et_pb_bg_layout_light">
 				
 				<div class="et_pb_blurb_content">
-					
+				<div class="col-md-12 animate-box">
+						<div class="swiper-container">
+							<div class="swiper-wrapper">
+									<?php
+								      // jalankan query untuk menampilkan semua data diurutkan berdasarkan nim
+								      $query = "SELECT * FROM tb_wish ORDER BY id ASC";
+								      $result = mysqli_query($koneksi, $query);
+								      //mengecek apakah ada error ketika menjalankan query
+								      if(!$result){
+								        die ("Query Error: ".mysqli_errno($koneksi).
+								           " - ".mysqli_error($koneksi));
+      									} 
+      									while($row = mysqli_fetch_assoc($result))
+      									{
+      									?>
+								<div class="swiper-slide">
+									<div style='width:80%; font-size:14px; text-align:center; margin-left:10%;margin-right:10%'>
+										
+										<span><?php echo $row['nama'];?></span><br/>
+										<span><?php echo $row['alamat'];?></span>
+										<blockquote>
+											<p><?php echo $row['pesan'];?></p>
+										</blockquote>
+									</div>
+								</div>
+									<?php
+										}
+									?>
+								
+
+							</div>
+								<div class='swiper-button-next'></div>
+								<div class='swiper-button-prev'></div>
+								<div style='clear:both;'><br><br></div>
+						</div>
+					</div>
 					<div class="et_pb_blurb_container">
 						<h4 class="et_pb_module_header"><span>Kirim Ucapan</span></h4>
 						<div class="et_pb_blurb_description"><p style="text-align: center;">Tulis ucapan untuk kami&#8230;</p></div>
@@ -681,56 +726,13 @@ jQuery(function($){
 						<!-- <input type="hidden" value="et_contact_proccess" name="et_pb_contactform_submit_0"/> -->
 						<div class="et_contact_bottom_container">
 							
-							<button id="kirim" type="submit" class="et_pb_contact_submit et_pb_button" style="background-color: #c08fc0;box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 20%);">Kirim</button>
+							<button id="kirim" type="submit" class="et_pb_contact_submit et_pb_button" style="background-color: #747787;box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 20%);">Kirim</button>
 						</div>
 						<!-- <input type="hidden" id="_wpnonce-et-pb-contact-form-submitted-0" name="_wpnonce-et-pb-contact-form-submitted-0" value="c9b9bf1646" /><input type="hidden" name="_wp_http_referer" value="" /> -->
 					</form>
 				</div> <!-- .et_pb_contact -->
 			</div>
-			<div class="et_pb_module et_pb_blurb et_pb_blurb_3  et_pb_text_align_center  et_pb_blurb_position_top et_pb_bg_layout_light" style="font-style: normal;">
-				
-				<div class="et_pb_blurb_content">
-					<div class="col-md-12 animate-box">
-						<ul class="comment-section">
-
-							<?php
-							      // jalankan query untuk menampilkan semua data diurutkan berdasarkan nim
-							      $query = "SELECT * FROM tb_wish ORDER BY id ASC";
-							      $result = mysqli_query($koneksi, $query);
-							      //mengecek apakah ada error ketika menjalankan query
-							      if(!$result){
-							        die ("Query Error: ".mysqli_errno($koneksi).
-							           " - ".mysqli_error($koneksi));
-										} 
-										while($row = mysqli_fetch_assoc($result))
-										{
-								?>
-
-							<li class="comment author-comment">
-
-				                <!-- <div class="info">
-				                    <a href="#">Anie Silverston</a>
-				                    <span>4 hours ago</span>
-				                </div>
-
-				                <a class="avatar" href="#">
-				                    <img src="images/avatar_user_1.jpg" width="35" alt="Profile Avatar" title="Anie Silverston" />
-				                </a>
-				 -->
-				                <p><strong><?php echo $row['nama'];?> - <?php echo $row['alamat'];?></strong><br><?php echo $row['pesan'];?></p>
-
-							</li>
-							<?php
-								}
-							?>
-
-
-				            
-
-						</ul>
-					</div>
-				</div>
-			</div> 		
+					
 			</div> <!-- .et_pb_column -->
 			
 				</div>
@@ -813,8 +815,8 @@ jQuery(function($){
     	<div style="text-align: center">
 	    	<img src="bca.png" style="width: 110px;">
 		    <p><input type="text" value="2990635211" id="myInput" disabled style="border: none;border-color: transparent;font-weight:700;font-size:medium;text-align: center;"><strong><br>a.n. Addin Ahmad Fadillah</strong></p>
-			<button style="background-color: #c08fc0!important;box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 20%);" onclick="myFunction()">Copy </button>
-			<!-- <a class="et_pb_button et_pb_button_1 et_animated et_pb_bg_layout_light" id="" style="background-color: #c08fc0!important;box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 20%);">Copy</a> -->
+			<button style="background-color: #747787!important;box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 20%);" onclick="myFunction()">Copy </button>
+			<!-- <a class="et_pb_button et_pb_button_1 et_animated et_pb_bg_layout_light" id="" style="background-color: #747787!important;box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 20%);">Copy</a> -->
 		   
     	</div>
     </div>
@@ -858,7 +860,8 @@ jQuery(function($){
 
 		/* Copy the text inside the text field */
 		navigator.clipboard.writeText(copyText.value);
-		
+		/* Alert the copied text */
+		alert("No rekening berhasil di salin");
 		
 	}
 
@@ -952,6 +955,12 @@ if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_c
 
 <script src="../wp-content/themes/Divi/js/swiper.min.js"></script>
   	<script>
+		  var swiper = new Swiper('.swiper-container', {
+		  navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		  },
+		});
   		var myAudio = document.getElementById("myAudio");
 		var audioIsPlaying = false;
 		myAudio.loop = true;
@@ -981,14 +990,14 @@ if(is_iframe){iframe_count+=1}}});if(image_count>0||iframe_count>0||rocketlazy_c
 			})
 		});
 
-		var vid = document.getElementById("myVideo");
-		vid.onpause = function(){
-			audioPlay();
-		};
+		// var vid = document.getElementById("myVideo");
+		// vid.onpause = function(){
+		// 	audioPlay();
+		// };
 
-		vid.onplaying = function(){
-			audioPause();
-		};
+		// vid.onplaying = function(){
+		// 	audioPause();
+		// };
 		var swiper = new Swiper('.swiper-container', {
 		  navigation: {
 			nextEl: '.swiper-button-next',
