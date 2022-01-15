@@ -814,7 +814,7 @@ jQuery(function($){
     <div class="modal-body">
     	<div style="text-align: center">
 	    	<img src="bca.png" style="width: 110px;">
-		    <p><input type="text" value="2990635211" id="myInput"  style="border: none;border-color: transparent;font-weight:700;font-size:medium;text-align: center;"><strong><br>a.n. Addin Ahmad Fadillah</strong></p>
+		    <p><input type="text" value="2990635211" id="myInput" disabled style="border: none;border-color: transparent;font-weight:700;font-size:medium;text-align: center;"><strong><br>a.n. Addin Ahmad Fadillah</strong></p>
 			<button style="background-color: #747787!important;box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 20%);" onclick="myFunction()">Copy </button>
 			<!-- <a class="et_pb_button et_pb_button_1 et_animated et_pb_bg_layout_light" id="" style="background-color: #747787!important;box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 20%);">Copy</a> -->
 		   
@@ -827,6 +827,22 @@ jQuery(function($){
 <audio id="myAudio" src="lagu/sound.mp3" preload="auto"></audio>
 
 	</div> <!-- #page-container -->
+	<script>
+	function myFunction() {
+	/* Get the text field */
+	var copyText = document.getElementById("myInput");
+
+	/* Select the text field */
+	copyText.select();
+	copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+	/* Copy the text inside the text field */
+	navigator.clipboard.writeText(copyText.value);
+	
+	/* Alert the copied text */
+	alert("Copied the text: " + copyText.value);
+	}
+	</script>
 	<script type="text/javascript">
 		// $(document).ready(function(){
 
@@ -850,20 +866,7 @@ jQuery(function($){
 		// }
 	</script>
 	<script>
-	function myFunction() {
-		/* Get the text field */
-		var copyText = document.getElementById("myInput");
-
-		/* Select the text field */
-		copyText.select();
-		copyText.setSelectionRange(0, 99999); /* For mobile devices */
-
-		/* Copy the text inside the text field */
-		navigator.clipboard.writeText(copyText.value);
-		/* Alert the copied text */
-		alert("No rekening berhasil di salin");
-		
-	}
+	
 
 	// Get the modal
 	var modal = document.getElementById("myModal");
