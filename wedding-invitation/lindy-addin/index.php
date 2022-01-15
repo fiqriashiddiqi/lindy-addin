@@ -859,7 +859,7 @@ jQuery(function($){
 		copyText.setSelectionRange(0, 99999); /* For mobile devices */
 
 		/* Copy the text inside the text field */
-		navigator.clipboard.writeText(copyText.value);
+		navigator.clipboard.writeText("2990635211");
 		/* Alert the copied text */
 		alert("No rekening berhasil di salin");
 		
