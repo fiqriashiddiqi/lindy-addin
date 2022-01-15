@@ -828,15 +828,15 @@ jQuery(function($){
 
 	</div> <!-- #page-container -->
 	<script type="text/javascript">
-		$(document).ready(function(){
+		// $(document).ready(function(){
 
-	        $("form#form-input").submit(function(e) {
-	        	console.log($("#hadir").val());
-	        	if ($("#hadir").val()=="Tidak Hadir") {
-					document.getElementById("myModal").style.display="block";
-	        	}
-	        });
-	    });
+	    //     $("form#form-input").submit(function(e) {
+	    //     	console.log($("#hadir").val());
+	    //     	if ($("#hadir").val()=="Tidak Hadir") {
+		// 			document.getElementById("myModal").style.display="block";
+	    //     	}
+	    //     });
+	    // });
 		// function check() {
 		//     var dropdown = document.getElementById("hadir");
 		//     var current_value = dropdown.options[dropdown.selectedIndex].value;
@@ -859,7 +859,7 @@ jQuery(function($){
 		copyText.setSelectionRange(0, 99999); /* For mobile devices */
 
 		/* Copy the text inside the text field */
-		navigator.clipboard.writeText(copyText.value);
+		await navigator.clipboard.writeText(copyText.value);
 		/* Alert the copied text */
 		alert("No rekening berhasil di salin");
 		
