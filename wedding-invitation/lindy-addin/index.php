@@ -8,10 +8,10 @@ include('../lindy-addin/koneksi.php');
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
 <head>
 	<meta charset="UTF-8" />
-	<meta name="description" content="Undangan pernikahan Lindy dan Addin. Senin, 14 Februari 2022.">
-	<meta property="og:title" content="Undangan pernikahan Lindy dan Addin. Senin, 14 Februari 2022." />
+	<meta name="description" content="Undangan pernikahan Lindy dan Addin. Monday, 14 February 2022.">
+	<meta property="og:title" content="Undangan pernikahan Lindy dan Addin. Monday, 14 February 2022." />
 	<meta property="og:url" content="https://lindy-addin.digital-invitation.com/" />
-	<meta property="og:description" content="Undangan pernikahan Lindy dan Addin. Senin, 14 Februari 2022.">
+	<meta property="og:description" content="Undangan pernikahan Lindy dan Addin. Monday, 14 February 2022.">
 	<meta property="og:image" content="https://lindy-addin.digital-invitation.com/1.bp.blogspot.com/-FuprKxe6I3I/X3waINlnqnI/AAAAAAAAFzo/DF1N99KVgt8ZjEiaNubMyRjz17nxGNAxQCLcBGAsYHQ/s16000/AZ--531.jpg">
 	<meta property="og:type" content="article" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -253,8 +253,10 @@ jQuery(function($){
 				<div class="et_pb_module et_pb_text et_pb_text_0  et_pb_text_align_center et_pb_bg_layout_light">
 				
 				
-				<div class="et_pb_text_inner" style="margin-bottom:190px"><h2>Kepada Yth</h2>
-<p>Bapak/Ibu/Saudara/i&nbsp;</p>
+				<div class="et_pb_text_inner" style="margin-bottom:173px!important;"><p id="namaUndangan"></p>
+<p style="font-family: 'Pacifico';font-weight: 200;">You Are Invited!&nbsp;</p>
+<p style="font-family: 'Pacifico';font-weight: 200;">The Wedding of</p>
+<h1 style="font-family:'Sacramento',handwriting">Lindy & Addin</h1>
 <p id="namaUndangan" style="color:gold;"></p>
 <script>
         const queryString = window.location.search;
@@ -264,11 +266,11 @@ jQuery(function($){
         var nama = urlParams.get('nama');
         var test = 7;
         console.log(nama);
-        document.getElementById("namaUndangan").innerHTML = nama;
-</script>
-<p>di tempat</p></div>
+        document.getElementById("namaUndangan").innerHTML = "Dear "+ nama +",";
+</script></div>
+
 			</div> <!-- .et_pb_text --><div class="et_pb_button_module_wrapper et_pb_button_0_wrapper et_pb_button_alignment_center et_pb_module ">
-				<a class="et_pb_button et_pb_custom_button_icon et_pb_button_0 et_animated et_pb_bg_layout_light" href="#" data-icon="&#xe089;" id="btn_open">Buka Undangan</a>
+				<a class="et_pb_button et_pb_custom_button_icon et_pb_button_0 et_animated et_pb_bg_layout_light" href="#" data-icon="&#xe089;" id="btn_open">Open Invitation</a>
 			</div><div class="et_pb_module et_pb_code et_pb_code_0 nothanks et_clickable  et_pb_text_align_center">
 				
 				
@@ -317,7 +319,7 @@ jQuery(function($){
 				<div class="et_pb_module et_pb_text et_pb_text_1  et_pb_text_align_center et_pb_bg_layout_dark">
 				
 				
-				<div class="et_pb_text_inner"><p>Undangan Pernikahan</p></div>
+				<div class="et_pb_text_inner"><p>Wedding Invitation</p></div>
 			</div> <!-- .et_pb_text --><div class="et_pb_module et_pb_blurb et_pb_blurb_0 et_animated  et_pb_text_align_left  et_pb_blurb_position_top et_pb_bg_layout_dark">
 				
 				
@@ -325,24 +327,9 @@ jQuery(function($){
 					
 					<div class="et_pb_blurb_container">
 						<h4 class="et_pb_module_header"><span>Lindy & Addin</span></h4>
-						<div class="et_pb_blurb_description"><p style="text-align: center;">14 FEBRUARI 2022</p></div>
+						<div class="et_pb_blurb_description"><p style="text-align: center;">14 February 2022</p></div>
 
-						<!-- <a class="et_pb_button et_pb_button_1 et_animated et_pb_bg_layout_light" href="https://calendar.google.com/calendar/ical/ou5s8e3mefq8327m7opbukn33o%40group.calendar.google.com/public/basic.ics" target="_blank" style="background-color: #747787;width: 50%;margin-left: auto;margin-right: auto;margin-top: 20px; text-align: center;">Save Date</a> -->
-						<!-- <a class="et_pb_button et_pb_button_1 et_animated et_pb_bg_layout_light" href="https://calendar.google.com/calendar/u/0?cid=b3U1czhlM21lZnE4MzI3bTdvcGJ1a24zM29AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ" target="_blank" style="background-color: #747787;width: 50%;margin-left: auto;margin-right: auto;margin-top: 20px; text-align: center;">Save Date</a> -->
-						<!-- <div title="Add to Calendar" class="addeventatc" data-styling="none">
-						    Add to Calendar
-						    <span class="arrow">&nbsp;</span>
-						    <span class="start">06/18/2015 09:00 AM</span>
-						    <span class="end">06/18/2015 11:00 AM</span>
-						    <span class="timezone">Europe/Paris</span>
-						    <span class="title">Summary of the event</span>
-						    <span class="description">Description of the event</span>
-						    <span class="location">Location of the event</span>
-						    <span class="organizer">Organizer</span>
-						    <span class="organizer_email">Organizer e-mail</span>
-						    <span class="all_day_event">false</span>
-						</div> -->
-						<!-- <a href="http://www.google.com/calendar/event?action=TEMPLATE&text=Example%20Event&dates=20131124T010000Z/20131124T020000Z&details=Event%20Details%20Here&location=123%20Main%20St%2C%20Example%2C%20NY">Add to gCal</a> -->
+						
 					</div>
 				</div> <!-- .et_pb_blurb_content -->
 			</div> <!-- .et_pb_blurb -->
@@ -368,7 +355,7 @@ jQuery(function($){
 			</div><div class="et_pb_module et_pb_text et_pb_text_2 et_animated  et_pb_text_align_center et_pb_bg_layout_dark">
 				
 				
-				<div class="et_pb_text_inner"><p>&#8220;<span>Dan Diantara tanda-tanda kekuasaan Allah ialah Diciptakan-Nya untukmu pasangan hidup dari jenismu sendiri supaya kamu merasa tentram disamping-Nyadan dijadikan-Nya rasa kasih sayang diantara kamu. Sesungguhnya yang demikian itu menjadi bukti kekuasaan Allah bagi kaum yang berfikir</span>.&#8221;</p>
+				<div class="et_pb_text_inner"><p>&#8220;<span>And of His signs is that He created for you from yourselves mates that you may find tranquillity in them and He placed between you affection and mercy. Indeed in that are signs for a people who give thought.</span>.&#8221;</p>
 <p>( QS. Ar- Rum 21 )</p></div>
 			</div> <!-- .et_pb_text -->
 			</div> <!-- .et_pb_column -->
@@ -392,7 +379,7 @@ jQuery(function($){
 				
 				<div class="et_pb_text_inner">
 					<h1>Lindy Aisha Kurnia, S.I.Kom</h1>
-                	<p><strong>Putri dari</strong><br>Bpk. Drs. Dading Kurniadi <br> &amp; Ibu Dwi Ratih
+                	<p><strong>The Daughter of</strong><br>Mr. Drs. Dading Kurniadi <br> &amp; Mrs. Dwi Ratih
 			</div> <!-- .et_pb_text -->
 			</div> <!-- .et_pb_column --><div class="et_pb_column et_pb_column_1_3 et_pb_column_4  et_pb_css_mix_blend_mode_passthrough">
 				
@@ -410,7 +397,7 @@ jQuery(function($){
 				
 				<div class="et_pb_text_inner">
 					<h1>Addin Ahmad Fadillah, S.H</h1>
-                    <p><strong>Putra dari</strong><br> Bpk. Drs. H. Anang Sundana Sunardi, M.Si (Alm)<br> &amp; Ibu Mamay Maryasih, SE</p>
+                    <p><strong>The Son of</strong><br> Mr. Drs. H. Anang Sundana Sunardi, M.Si (Alm)<br> &amp; Mrs. Mamay Maryasih, SE</p>
 				</div>
 			</div> <!-- .et_pb_text -->
 			</div> <!-- .et_pb_column -->
@@ -424,7 +411,7 @@ jQuery(function($){
 				
 				
 				<div class="et_pb_countdown_timer_container clearfix">
-					<h4 class="title">Hari Yang Kami Tunggu</h4>
+					<h4 class="title">Countdown</h4>
 					<div class="days section values" data-short="Day" data-full="Day(s)">
 						<p class="value"></p>
 						<p class="label">Day(s)</p>
@@ -460,9 +447,9 @@ jQuery(function($){
 				<div class="et_pb_blurb_content">
 					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><img width="55" height="63" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2055%2063'%3E%3C/svg%3E" alt="" class="et-waypoint et_pb_animation_top wp-image-882" data-lazy-src="../wp-content/uploads/2020/02/section-title-img-1.png" /><noscript><img width="55" height="63" src="../wp-content/uploads/2020/02/section-title-img-1.png" alt="" class="et-waypoint et_pb_animation_top wp-image-882" /></noscript></span></div>
 					<div class="et_pb_blurb_container">
-						<h4 class="et_pb_module_header"><span style="font-size:32px;">Akad Nikah</span></h4>
+						<h4 class="et_pb_module_header"><span style="font-size:32px;">Marriage Contract</span></h4>
 						<div class="et_pb_blurb_description">
-							<p style="font-size: 14px;color: #666666">Senin, 14 Februari 2022<br> 08.00 s/d 11.00 WIB<br> <strong>Diva Convention Hall </strong><br> Jln. Ir. Soekarno Jalan Baru Cijoho Depan Islamic Center,<br> Kabupaten Kuningan, Jawa Barat </p>
+							<p style="font-size: 14px;color: #666666">Monday, 14 February 2022<br> 08.00 WIB<br> <strong>Diva Convention Hall </strong><br> Jln. Ir. Soekarno Jalan Baru Cijoho Depan Islamic Center,<br> Kabupaten Kuningan, Jawa Barat </p>
 						</div>
 					</div>
 				</div> <!-- .et_pb_blurb_content -->
@@ -477,9 +464,9 @@ jQuery(function($){
 				<div class="et_pb_blurb_content">
 					<div class="et_pb_main_blurb_image"><span class="et_pb_image_wrap"><img width="55" height="63" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2055%2063'%3E%3C/svg%3E" alt="" class="et-waypoint et_pb_animation_top wp-image-882" data-lazy-src="../wp-content/uploads/2020/02/section-title-img-1.png" /><noscript><img width="55" height="63" src="../wp-content/uploads/2020/02/section-title-img-1.png" alt="" class="et-waypoint et_pb_animation_top wp-image-882" /></noscript></span></div>
 					<div class="et_pb_blurb_container">
-						<h4 class="et_pb_module_header"><span>Resepsi</span></h4>
+						<h4 class="et_pb_module_header"><span>Reception</span></h4>
 						<div class="et_pb_blurb_description">
-							<p>Senin, 14 Februari 2022<br> <span> 11.00 s/d 15.00 WIB</span><br> <strong>Diva Convention Hall </strong><br> Jln. Ir. Soekarno Jalan Baru Cijoho Depan Islamic Center Kuningan,<br> Kabupaten, Jawa Barat </p>
+							<p>Monday, 14 February 2022<br> <span> 11.00 s/d 15.00 WIB</span><br> <strong>Diva Convention Hall </strong><br> Jln. Ir. Soekarno Jalan Baru Cijoho Depan Islamic Center Kuningan,<br> Kabupaten, Jawa Barat </p>
 						</div>
 					</div>
 				</div> <!-- .et_pb_blurb_content -->
@@ -610,7 +597,7 @@ jQuery(function($){
 				<div class="et_pb_blurb_content">
 					
 					<div class="et_pb_blurb_container">
-						<h4 class="et_pb_module_header"><span>Protokol Kesehatan</span></h4>
+						<h4 class="et_pb_module_header"><span>Health Protocol</span></h4>
 						<div class="et_pb_blurb_description">
 							<img src="covid.png" style="width:100%;" class="et_pb_animation_top" />
 						</div>
@@ -619,7 +606,7 @@ jQuery(function($){
 					<br>
 					<br>
 					<div class="et_pb_blurb_container">
-						<h4 class="et_pb_module_header"><span>Gift</span></h4>
+						<h4 class="et_pb_module_header"><span>Gift Corner</span></h4>
 						<div class="et_pb_blurb_description">
 							<img src="gift-icon.png" class="et_pb_animation_top">
 							<a class="et_pb_button et_pb_button_1 et_animated et_pb_bg_layout_light" id="myBtn" style="background-color: #747787!important;box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 20%);">Send Gift</a>
@@ -691,8 +678,8 @@ jQuery(function($){
 						</div>
 					</div>
 					<div class="et_pb_blurb_container">
-						<h4 class="et_pb_module_header"><span>Kirim Ucapan</span></h4>
-						<div class="et_pb_blurb_description"><p style="text-align: center;">Tulis ucapan untuk kami&#8230;</p></div>
+						<h4 class="et_pb_module_header"><span>Friend Wishes</span></h4>
+						<div class="et_pb_blurb_description"><p style="text-align: center;">Write a greeting for us&#8230;</p></div>
 					</div>
 				</div>
 				
@@ -708,25 +695,25 @@ jQuery(function($){
 						<p class="et_pb_contact_field et_pb_contact_field_0 et_pb_contact_field_half" data-type="input">
 				
 				
-						<label for="et_pb_contact_nama_0" class="et_pb_contact_form_label">Nama</label>
-						<input type="text" name="nama" data-required_mark="required" placeholder="Nama">
+						<label for="et_pb_contact_nama_0" class="et_pb_contact_form_label">Name</label>
+						<input type="text" name="nama" data-required_mark="required" placeholder="Name">
 					</p><p class="et_pb_contact_field et_pb_contact_field_1 et_pb_contact_field_half et_pb_contact_field_last"  data-type="input">
 						
 						
-						<label for="et_pb_contact_alamat_0" class="et_pb_contact_form_label">Alamat</label>
-						<input type="text" name="alamat" required placeholder="Alamat">
+						<label for="et_pb_contact_alamat_0" class="et_pb_contact_form_label">Address</label>
+						<input type="text" name="alamat" required placeholder="Address">
 					</p>
 					
 					<p class="et_pb_contact_field et_pb_contact_field_2 et_pb_contact_field_last" data-type="text">
 						
 						
-						<label for="et_pb_contact_message_0" class="et_pb_contact_form_label">Tinggalkan pesan untuk kami...</label>
-						<textarea name="pesan"  required placeholder="Tinggalkan pesan untuk kami..."></textarea>
+						<label for="et_pb_contact_message_0" class="et_pb_contact_form_label">Leave us a message...</label>
+						<textarea name="pesan"  required placeholder="Leave us a message..."></textarea>
 					</p>
 						<!-- <input type="hidden" value="et_contact_proccess" name="et_pb_contactform_submit_0"/> -->
 						<div class="et_contact_bottom_container">
 							
-							<button id="kirim" type="submit" class="et_pb_contact_submit et_pb_button" style="background-color: #747787;box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 20%);">Kirim</button>
+							<button id="kirim" type="submit" class="et_pb_contact_submit et_pb_button" style="background-color: #747787;box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 20%);">Send</button>
 						</div>
 						<!-- <input type="hidden" id="_wpnonce-et-pb-contact-form-submitted-0" name="_wpnonce-et-pb-contact-form-submitted-0" value="c9b9bf1646" /><input type="hidden" name="_wp_http_referer" value="" /> -->
 					</form>
@@ -747,7 +734,7 @@ jQuery(function($){
 				<div class="et_pb_blurb_content">
 					
 					<div class="et_pb_blurb_container">
-						<h4 class="et_pb_module_header"><span style="font-size: 20px;">Terima kasih</span></h4>
+						<h4 class="et_pb_module_header"><span style="font-size: 20px;">Thank You</span></h4>
 						<div class="et_pb_blurb_description"><p><br>Lindy &amp; Addin</p></div>
 					</div>
 				</div> <!-- .et_pb_blurb_content -->
@@ -813,11 +800,14 @@ jQuery(function($){
     </div>
     <div class="modal-body">
     	<div style="text-align: center">
-	    	<img src="bca.png" style="width: 110px;">
+	    	<img src="bca.png" style="width: 110px;"><br>
+			<img src="addin.jpeg" style="width: 260px;">
 		    <p><input type="text" value="2990635211" id="myInput" disabled style="border: none;border-color: transparent;font-weight:700;font-size:medium;text-align: center;"><strong><br>a.n. Addin Ahmad Fadillah</strong></p>
-			<button style="background-color: #747787!important;box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 20%);" onclick="myFunction()">Copy </button>
+			<!-- <button style="background-color: #747787!important;box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 20%);" onclick="myFunction()">Copy </button> -->
 			<!-- <a class="et_pb_button et_pb_button_1 et_animated et_pb_bg_layout_light" id="" style="background-color: #747787!important;box-shadow: 0px 2px 18px 0px rgb(0 0 0 / 20%);">Copy</a> -->
-		   
+			<img src="mandiri.png" style="width: 110px;"><br>
+			<img src="lindy.jpeg" style="width: 260px;">
+		    <p><input type="text" value="134 00 1124613 8" id="myInput" disabled style="border: none;border-color: transparent;font-weight:700;font-size:medium;text-align: center;"><strong><br>a.n. Lindy Aisha Kurnia</strong></p>
     	</div>
     </div>
     
@@ -828,20 +818,33 @@ jQuery(function($){
 
 	</div> <!-- #page-container -->
 	<script>
-	function myFunction() {
-	/* Get the text field */
-	var copyText = document.getElementById("myInput");
+	// function myFunction() {
+	// /* Get the text field */
+	// var copyText = document.getElementById("myInput");
 
-	/* Select the text field */
-	copyText.select();
-	copyText.setSelectionRange(0, 99999); /* For mobile devices */
+	// /* Select the text field */
+	// copyText.select();
+	// copyText.setSelectionRange(0, 99999); /* For mobile devices */
 
-	/* Copy the text inside the text field */
-	navigator.clipboard.writeText(copyText.value);
+	// /* Copy the text inside the text field */
+	// navigator.clipboard.writeText(copyText.value);
 	
-	/* Alert the copied text */
-	alert("Copied the text: " + copyText.value);
-	}
+	// /* Alert the copied text */
+	// alert("Copied the text: " + copyText.value);
+
+	
+	// }
+	async function myFunction() {
+		var copyText = document.getElementById("myInput");
+		copyText.select();
+		copyText.setSelectionRange(0, 99999);
+		try {
+			await navigator.clipboard.writeText(copyText);
+			console.log('Page URL copied to clipboard');
+		} catch (err) {
+			console.error('Failed to copy: ', err);
+		}
+		}
 	</script>
 	<script type="text/javascript">
 		// $(document).ready(function(){
