@@ -546,6 +546,48 @@ jQuery(function($){
 				</div> <!-- .et_pb_container -->
 				
 			</div> <!-- .et_pb_slide -->
+			<div class="et_pb_slide et_pb_slide_5 et_pb_bg_layout_dark et_pb_media_alignment_center" data-slide-id="et_pb_slide_5">
+				
+				
+				<div class="et_pb_container clearfix">
+					<div class="et_pb_slider_container_inner">
+						
+						<div class="et_pb_slide_description">
+							
+							
+						</div> <!-- .et_pb_slide_description -->
+					</div>
+				</div> <!-- .et_pb_container -->
+				
+			</div> <!-- .et_pb_slide -->
+			<div class="et_pb_slide et_pb_slide_6 et_pb_bg_layout_dark et_pb_media_alignment_center" data-slide-id="et_pb_slide_6">
+				
+				
+				<div class="et_pb_container clearfix">
+					<div class="et_pb_slider_container_inner">
+						
+						<div class="et_pb_slide_description">
+							
+							
+						</div> <!-- .et_pb_slide_description -->
+					</div>
+				</div> <!-- .et_pb_container -->
+				
+			</div> <!-- .et_pb_slide -->
+			<div class="et_pb_slide et_pb_slide_7 et_pb_bg_layout_dark et_pb_media_alignment_center" data-slide-id="et_pb_slide_7">
+				
+				
+				<div class="et_pb_container clearfix">
+					<div class="et_pb_slider_container_inner">
+						
+						<div class="et_pb_slide_description">
+							
+							
+						</div> <!-- .et_pb_slide_description -->
+					</div>
+				</div> <!-- .et_pb_container -->
+				
+			</div> <!-- .et_pb_slide -->
 			<div class="et_pb_slide et_pb_slide_3 et_pb_bg_layout_dark et_pb_media_alignment_center" data-slide-id="et_pb_slide_3">
 				
 				
